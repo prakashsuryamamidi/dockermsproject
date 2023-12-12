@@ -2,13 +2,13 @@
 version: "3.8"
 services:
   movies:
-    image: msuryaprakash06/movies
+    image:msuryaprakash06/surya  
     ports:
       - 61:80
     deploy:
       replicas: 3
   train:
-    image: msuryaprakash06/train
+    image:msuryaprakash06/prakash 
     ports:
       - 62:80
     deploy:
