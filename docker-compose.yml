@@ -2,25 +2,25 @@
 version: "3.8"
 services:
   movies:
-    image: msuryaprakash06/movies:latest
+    image: msuryaprakash06/movies
     ports:
       - 91:80
     deploy:
       replicas: 3
   train:
-    image: msuryaprakash06/train:latest
+    image: msuryaprakash06/train
     ports:
       - 92:80
     deploy:
       replicas: 3
   recharge:
-    image: msuryaprakash06/recharge:latest
+    image: msuryaprakash06/recharge
     ports:
       - 93:80
     deploy:
       replicas: 3
   dth:
-    image: msuryaprakash06/dth:latest
+    image: msuryaprakash06/dth
     ports:
       - 94:80
     deploy:
