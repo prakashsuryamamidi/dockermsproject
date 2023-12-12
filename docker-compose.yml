@@ -20,7 +20,7 @@ services:
     deploy:
       replicas: 3
   dth:
-    image: msuryaprakash06/dth
+    image:msuryaprakash06/dth 
     ports:
       - 64:80
     deploy:
