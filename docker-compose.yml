@@ -4,24 +4,24 @@ services:
   movies:
     image: msuryaprakash06/movies:latest
     ports:
-      - 61:80
+      - 81:80
     deploy:
       replicas: 3
   train:
     image: msuryaprakash06/train:latest
     ports:
-      - 62:80
+      - 82:80
     deploy:
       replicas: 3
   recharge:
     image: msuryaprakash06/recharge:latest
     ports:
-      - 63:80
+      - 83:80
     deploy:
       replicas: 3
   dth:
     image:msuryaprakash06/dth:latest 
     ports:
-      - 64:80
+      - 84:80
     deploy:
       replicas: 3
