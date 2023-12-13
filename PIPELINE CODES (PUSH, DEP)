@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                git '.git'
+                git 'https://github.com/prakashsuryamamidi/dockermsproject.git'
             }
         }
         stage('build') {
